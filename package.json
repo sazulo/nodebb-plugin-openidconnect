@@ -1,0 +1,25 @@
+{
+  "name": "nodebb-plugin-openidconnect",
+  "version": "0.0.1",
+  "description": "OpenID Connect plugin for NodeBB",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "nodebb",
+    "auth",
+    "oidc",
+    "openidconnect"
+  ],
+  "nbbpm": {
+    "compatibility": "^1.12.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  },
+  "dependencies": {
+    "openid-client": "^3.7.4",
+    "uuid": "^3.3.3"
+  }
+}

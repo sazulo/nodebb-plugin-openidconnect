@@ -1,0 +1,17 @@
+{
+  "id": "nodebb-plugin-openidconnect",
+  "url": "https://registry.npmjs.org/nodebb-plugin-openidconnect",
+  "library": "./index.js",
+  "hooks": [
+			{ "hook": "static:app.load", "method": "init" },
+			{ "hook": "filter:admin.header.build", "method": "addMenuItem" },
+			{ "hook": "filter:auth.init", "method": "getStrategy" }
+  ],
+	"staticDirs": {
+		"static": "./static"
+	},
+	"acpScripts": [
+		"static/lib/admin.js"
+	],
+	"templates": "./static/templates"
+}
