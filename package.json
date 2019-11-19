@@ -1,6 +1,6 @@
 {
 	"name": "nodebb-plugin-openidconnect",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "OpenID Connect plugin for NodeBB",
 	"main": "index.js",
 	"repository": {
@@ -22,7 +22,7 @@
 		"url": "https://github.com/sazulo/nodebb-plugin-openidconnect/issues"
 	},
 	"nbbpm": {
-		"compatibility": "^1.12.2"
+		"compatibility": "^1.13.0"
 	},
 	"devDependencies": {
 		"eslint": "^5.16.0",

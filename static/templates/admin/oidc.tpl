@@ -14,6 +14,10 @@
                 <label for="clientSecret">Client Secret</label>
                 <input type="text" id="clientSecret" name="clientSecret" title="Client Secret" class="form-control" placeholder="secret">
             </div>
+			<div class="form-group">
+				<label for="matchEmail">Match User by Email</label>
+				<input type="checkbox" id="matchUserByEmail" name="matchUserByEmail" title="Match User By Email" class="form-control">
+			</div>
 		</div>
 	</div>
 </form>
